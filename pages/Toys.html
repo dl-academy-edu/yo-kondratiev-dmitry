@@ -8,11 +8,13 @@
 </head>
 <body>
     <header>
-        <img src="#" alt="Logo">
+        <a href="/index.html">
+            <img src="../static/icons/logo.svg" alt="Logo">
+        </a>
         <nav>
             <ul>
                 <li>
-                    <a href="#">Blog</a>
+                    <a href="Blog.html">Blog</a>
                 </li>
                 <li>
                     <a href="Catalog.html">Catalog</a>
@@ -24,11 +26,11 @@
                     <input type="search">
                 </li>
                 <li>
-                    <a href="#">Contact  Us</a>
+                    <a href="Contact  Us.html">Contact  Us</a>
                 </li>
             </ul>
         </nav>  
-    </header>
+    </header>     
     <main>
         <section>
             <h1>
@@ -45,65 +47,72 @@
                     <a href="Toys.html">Toys</a>
                 </li>
             </ul>
+                <fieldset>
+                    <legend>
+                        Cost
+                    </legend>
+                    <input type="range" name="0-500" id="">
+                    <p>
+                        0 500
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Color
+                    </legend>
+                    <div>
+                        <input type="checkbox" name="Black" id="Color">
+                        <label for="Black">Black</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Blue" id="Color">
+                        <label for="Blue">Blue</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Green" id="Color">
+                        <label for="Green">Green</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="White" id="Color">
+                        <label for="White">White</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Delivery
+                    </legend>
+                    <div>
+                        <input type="radio" name="Delivery" id="free shipping">
+                        <label for="free shipping">Free shipping</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Delivery" id="fast shipping">
+                        <label for="fast shipping">Fast shipping</label>
+                    </div>
+                </fieldset>
             <div>
-                <h2>
-                    Cost
-                </h2>
-                <div id="rectangle">0-500</div>
-            </div>
-            <div>
-                <h2>
-                    Color
-                </h2>
-                <ul>
-                    <li>
-                        Black
-                    </li>
-                    <li>
-                        Blue
-                    </li>
-                    <li>
-                        Green
-                    </li>
-                    <li>
-                        White
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2>
-                    Delivery
-                </h2>
-                <ul>
-                    <li>
-                        Free shipping
-                    </li>
-                    <li>
-                        Fast shipping
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2>
-                    Amount
-                </h2>
-                <ul>
-                    <li>
-                        <button>
-                            0-5
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            10-20
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            20-50
-                        </button>
-                    </li>
-                </ul>
+                <fieldset>
+                    <legend>
+                        Amount
+                    </legend>
+                    <ul>
+                        <li>
+                            <button>
+                                0-5
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                10-20
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                20-50
+                            </button>
+                        </li>
+                    </ul>
+                </fieldset>
             </div>
             <div>
                 <button>
@@ -252,8 +261,12 @@
             <h3>
                 Connect
             </h3>
-            <input type="Email">
-            <a href="#" class="button">Join</a>
+            <form action="#">
+                <input type="Email" placeholder="Email">
+                <button>
+                    Join
+                </button>
+            </form>
             <ul>
                 <li>
                     <a href="#"><img src="#" alt="">Facebook</a>
