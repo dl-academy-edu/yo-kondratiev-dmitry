@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/normolize.css">
     <title>Document</title>
 </head>
@@ -16,39 +17,58 @@
         <a href="/index.html">
             <img src="./static/icons/logo.svg" alt="Logo">
         </a>
-        <nav>
-            <ul>
-                <li>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list_item">
                     <a href="./pages/Blog.html">Blog</a>
                 </li>
-                <li>
+                <li class="nav__list_item">
                     <a href="./pages/Catalog.html">Catalog</a>
                 </li>        
-                <li>
+                <li class="nav__list_item">
                     <a href="#">About Us</a>
                 </li>
-                <li>
+                <li class="nav__list_item">
                     <img src="./static/icons/search.png" alt="search">
                 </li>
-                <li>
+                <li class="nav__list_itemContact">
                     <a class="contact_us" href="./pages/Contact  Us.html">Contact  Us </a>
                 </li>
             </ul>
         </nav>  
     </header>     
-    <main>
-            <section>
-                <h1 class="title banerh1"> 
+    <main class="main">
+            <section class="main__baner">
+                <ul>
+                    <li>
+                    </ul>
+                    <p class="main__buner_subject">
+                        01
+                    </p>
+                    <button class="main__baner_link">
+
+                    </button>
+                    <button class="main__baner_link">
+                        
+                    </button>
+                    <button class="main__baner_link">
+                        
+                    </button>
+                    <button class="main__baner_link">
+                        
+                    </button>
+                    </li>
+                <h1 class="main__baner_title "> 
                     THE OOH NOO COLLECTION 
                 </h1>
-                <p class="subtitle">
+                <p class="main__baner_text">
                     Designed in Slovenia 
                 </p>
-                <button>
+                <button class="main__button_baner">
                     EXPLORE NOW
                 </button>
                 <img src="./static/img/baner.png" alt="baner">
-                <p>
+                <p class="main__baner_desc">
                     Free (continental) USA shipping on all orders of $100 USD or more!
                 </p>
             </section>
@@ -104,7 +124,7 @@
                     Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical. 
                     <br> What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!
                 </p>
-                <a href="#" class="button">LEARN MORE</a>
+                <a href="#" class="main__button">LEARN MORE</a>
             </section>
             <section>
                 <h2>
@@ -135,7 +155,7 @@
                 <p>
                     Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.  
                 </p>
-                <button>
+                <button class="main__button">
                     buy now
                 </button>
             </section>
@@ -213,7 +233,7 @@
             </h3>
             <form action="#">
                 <input type="Email" placeholder="Email">
-                <button>
+                <button class="main__button">
                     Join
                 </button>
             </form>

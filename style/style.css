@@ -1,42 +1,48 @@
-/* Шрифты */
-body {
-    font-family: "Open Sans", sans-serif;
+/* Кнопки */
+.main__button_baner{
+    font-family: 'Open Sans' sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #1E0606
-}
-.title {
-    font-family: "Montserrat", sans-serif ;
-    color: #1E0606
-}
-.subtitle {
-    font-family: "Crimson Text", serif;
-    font-style: italic;
-    color: #1E0606
-}
-li{
-    list-style-type: none;
-}
-.contact_us{
     font-weight: 700;
-}
-.banerh1{
-    font-weight: 700;
-    line-height: 110%;
-    font-size: 40px;
-}
-button{
-    display: flex;
-    align-items: center;
-    padding: 9px 22px;
-    gap: 10px;
-    flex-direction: row;
-    background: #000000;
-    font-style: normal;
     font-size: 16px;
     line-height: 22px;
+    color: #FFFFFF;
+    background: #000000;
+    width: 161px;
+    height: 40px;
+    left: 243px;
+    top: 474px;
+}
+
+/*шрифт*/
+.main_buner_titl{
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
     font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+}
+.main__baner_text{
+    font-family: 'Crimson Text' serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+.main__buner_subject{
+    font-family: 'Montserrat' sans-serif
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05);
+}
+.main__baner_desc{
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
     color: #FFFFFF;
 }
