@@ -57,7 +57,7 @@
     color: #1E0606;
 }
 .main__buner_subject{
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 60px;
@@ -73,7 +73,7 @@
     color: #FFFFFF;
 }
 .main__category_title{
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -81,7 +81,7 @@
     color: #1E0606;
 }
 .main__category_link{
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -89,7 +89,7 @@
     color: #FFFFFF;
 }
 .main__category_slogan{
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -97,7 +97,7 @@
     color: #1E0606;
 }
 .main__delivery_title{
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -105,7 +105,7 @@
     color: #1E0606;
 }
 .main__delivery_subtitle{
-    font-family: 'Crimson Text',serif;
+    font-family: 'Crimson Text', serif;
     font-style: italic;
     font-weight: 700;
     font-size: 26px;
@@ -113,7 +113,7 @@
     color: #1E0606;
 }
 .main__delivery_link{
-    font-family: 'Crimson Text',serif;
+    font-family: 'Crimson Text', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 26px;
@@ -121,7 +121,7 @@
     color: #1E0606;
 }
 .main__delivery_text{
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -132,7 +132,7 @@
     display: none;
 }
 .main__aside_title{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -140,7 +140,7 @@
     color: #1E0606;
 }
 .main__aside_subtitle{
-    font-family: 'Crimson Text';
+    font-family: 'Crimson Text', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 26px;
@@ -148,7 +148,7 @@
     color: #1E0606;
 }
 .main__aside_text{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -156,7 +156,7 @@
     color: #1E0606;
 }
 .main__contacts_title{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -164,7 +164,7 @@
     color: #1E0606;
 }
 .main__contacts_text{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
