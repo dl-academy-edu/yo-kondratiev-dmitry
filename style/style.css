@@ -38,32 +38,6 @@
     left: 140px;
     top: 2230px;
 }
-/*header */
-.header{
-    display: flex;
-}
-.nav__list{
-    display: flex;
-}
-
-/* Baner */
-
-
-.main__baner_link{
-    display: flex;
-}
-
-/* Category */
-.main__category_ul{
-    display: flex;
-}
-
-.main__logo_list{
-    display: flex;}
-.main__logo_item{
-    margin-right: 127px;
-}
-
 
 /*шрифт*/
 .main_buner_titl{
