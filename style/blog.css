@@ -1,0 +1,86 @@
+/* blog*/
+
+.main__h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 60px;
+}
+
+.main__blog{
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    display: flex;
+}
+
+.main__blog_list{
+    margin-right: 20px;
+}
+
+.blog__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog__list_item{
+    width: 380px;
+    margin-right: 20px;
+}
+
+.blog__date{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #818181;
+}
+
+.blog__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E0606;
+}
+
+.blog__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+.blog__items{
+    display: inline;
+    padding: 0;
+}
+
+.blog__link{
+    color: #1E0606;
+    width: 13px;
+    height: 26px;
+}
+
+.blog__desc{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;
+    display: inline;
+    padding-right: 64px;
+}
