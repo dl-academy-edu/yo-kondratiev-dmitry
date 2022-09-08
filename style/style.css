@@ -24,7 +24,7 @@
     top: 1705px;
 }
 .main__aside_button{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -41,6 +41,9 @@
 
 /* Baner */
 
+.main{
+    margin-left: 110px;
+}
 
 .main__baner{
     display: flex;
@@ -48,6 +51,7 @@
     background: #EEE4DB;
     width: 1180px;
     height: 411px;
+    
 }
 
 .main__buner_subject{
@@ -68,10 +72,19 @@
 
 }
 
+.main__buner_subject{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05)
+}
+
 .main__baner_sec{
     position: absolute;
     width: 307px;
-    left: 133px ;
+    left: 243px ;
     margin-top: 89px;
     margin-left: 44px;
 }
@@ -81,7 +94,7 @@
     width: 635.49px;
     height: 461px;
     top: 142px;
-    left: 445px;
+    left: 555px;
 }
 
 .main__baner_desc{
@@ -94,18 +107,20 @@
     box-sizing: border-box;
     top: 603px;
     left: 0;
+    margin-left: 110px;
 }
 
 /* category */
 
 .main__category_list{
     display: flex;
-    margin: 0 -20px;
+    margin: 0 ;
+    padding: 0;
 }
 
 .main__category_link{
     width: 280px;
-    margin: 20px;
+    margin-right: 20px;
     position: relative;
 }
 .category__list-link{
