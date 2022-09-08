@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="../style/toys.css">
     <link rel="stylesheet" href="../style/common.css">
     <link rel="stylesheet" href="../style/normolize.css">
     <title>Document</title>
@@ -20,13 +20,13 @@
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__list_item">
-                    <a href="../pages/Blog.html">Blog</a>
+                    <a class="nav__link" href="../pages/Blog.html">Blog</a>
                 </li>
                 <li class="nav__list_item">
-                    <a href="../pages/Catalog.html">Catalog</a>
+                    <a class="nav__link" href="../pages/Catalog.html">Catalog</a>
                 </li>        
                 <li class="nav__list_item">
-                    <a href="#">About Us</a>
+                    <a class="nav__link" href="#">About Us</a>
                 </li>
             </ul>
             <ul class="nav__contact">
@@ -39,172 +39,177 @@
             </ul>
         </nav>  
     </header>        
-    <main>
+    <main class="main">
         <section>
-            <h1>
-                Toy for kids
+            <h1 class="main__title">
+                TOY FOR KIDS
             </h1>
-            <ul>
-                <li>
+            <ul class="main__title_list">
+                <li class="main__title_item">
                     <a href="../index.html">Home</a>
                 </li>
-                <li>
+                <img src="../static/icons/stroke.svg" alt="" class="main__title_item">
+                <li class="main__title_item">
                     <a href="./Catalog.html">Catalog</a>
                 </li>
-                <li>
+                <img src="../static/icons/stroke.svg" alt="" class="main__title_item">
+                <li class="main__title_item">
                     <a href="./Toys.html">Toys</a>
                 </li>
             </ul>
-                <fieldset>
-                    <legend>
+            <section class="sec">
+                <fieldset class="sec__cost">
+                    <legend class="sec__title">
                         Cost
                     </legend>
-                    <input type="range" name="0-500" id="">
-                    <p>
-                        0 500
-                    </p>
+                    <input type="range" name="0-500" id="" class="sec__cost_input">
+                    <div class="sec__cost_sec">
+                        <p class="sec__cost_text">
+                            0 
+                        </p>
+                        <p class="sec__cost_text">
+                            500
+                        </p>
+                    </div>
                 </fieldset>
-                <fieldset>
-                    <legend>
+                <fieldset class="sec__color">
+                    <legend class="sec__title">
                         Color
                     </legend>
-                    <div>
-                        <input type="checkbox" name="Black" id="Color">
-                        <label for="Black">Black</label>
+                    <div class="sec__color_input">
+                        <input class="color__input_box" type="checkbox" name="Black" id="Color">
+                        <label class="color__input_text" for="Black">Black</label>
                     </div>
-                    <div>
-                        <input type="checkbox" name="Blue" id="Color">
-                        <label for="Blue">Blue</label>
+                    <div class="sec__color_input">
+                        <input class="color__input_box" type="checkbox" name="Blue" id="Color">
+                        <label class="color__input_text" for="Blue">Blue</label>
                     </div>
-                    <div>
-                        <input type="checkbox" name="Green" id="Color">
-                        <label for="Green">Green</label>
+                    <div class="sec__color_input">
+                        <input class="color__input_box" type="checkbox" name="Green" id="Color">
+                        <label class="color__input_text" for="Green">Green</label>
                     </div>
-                    <div>
-                        <input type="checkbox" name="White" id="Color">
-                        <label for="White">White</label>
+                    <div class="sec__color_input">
+                        <input class="color__input_box" type="checkbox" name="White" id="Color">
+                        <label class="color__input_text" for="White">White</label>
                     </div>
                 </fieldset>
-                <fieldset>
-                    <legend>
+                <fieldset class="sec__delivery">
+                    <legend class="sec__title">
                         Delivery
                     </legend>
-                    <div>
-                        <input type="radio" name="Delivery" id="free shipping">
-                        <label for="free shipping">Free shipping</label>
+                    <div class="sec__delivery_input">
+                        <input class="delivery__input_box" type="radio" name="Delivery" id="free shipping">
+                        <label class="delivery__input_text" for="free shipping">Free shipping</label>
                     </div>
-                    <div>
-                        <input type="radio" name="Delivery" id="fast shipping">
-                        <label for="fast shipping">Fast shipping</label>
+                    <div class="sec__delivery_input">
+                        <input class="delivery__input_box" type="radio" name="Delivery" id="fast shipping">
+                        <label class="delivery__input_text" for="fast shipping">Fast shipping</label>
                     </div>
                 </fieldset>
-            <div>
-                <fieldset>
-                    <legend>
+                <fieldset class="sec__amount">
+                    <legend class="sec__title">
                         Amount
                     </legend>
-                    <ul>
+                    <ul class="sec__amount_list">
                         <li>
-                            <button>
+                            <button class="amount__list_item">
                                 0-5
                             </button>
                         </li>
                         <li>
-                            <button>
+                            <button class="amount__list_item">
                                 10-20
                             </button>
                         </li>
                         <li>
-                            <button>
+                            <button class="amount__list_item">
                                 20-50
                             </button>
                         </li>
                     </ul>
                 </fieldset>
+                <div class="sec__apply">
+                    <button class="sec__apply_title">
+                        Apply
+                    </button>
+                </div>
+            </section>
+            <section class="sec__catalog">
+                <ul class="catalog__list">
+                    <li class="catalog__list_item">
+                        <img class="catalog__img" src="../static/img/sharky.png" alt="SHARKY BEAN BAG CHAIR COVER">
+                        <h3 class="catalog__title">
+                            SHARKY BEAN BAG CHAIR COVER
+                        </h3>
+                        <p class="catalog__price">
+                            $60.00 USD
+                        </p>
+                    </li>
+                    <li class="catalog__list_item">
+                        <img class="catalog__img" src="../static/img/brassDecoFrames.png" alt="BRASS DECO FRAMES">
+                        <h3 class="catalog__title">
+                            BRASS DECO FRAMES
+                        </h3>
+                        <p class="catalog__price">
+                            $66.00 USD
+                        </p>
+                    </li>
+                    <li class="catalog__list_item">
+                        <img class="catalog__img" src="../static/img/ciboFullApron.png" alt="CIBO FULL APRON">
+                        <h3 class="catalog__title">
+                            CIBO FULL APRON
+                        </h3>
+                        <p class="catalog__price">
+                            $60.00 USD
+                        </p>
+                    </li>
+                    <li class="catalog__list_item">
+                        <img class="catalog__img" src="../static/img/gathaGumballMachine.png" alt="GATCHA GATCHA GUMBALL MACHINE">
+                        <h3 class="catalog__title">
+                            GATCHA GATCHA GUMBALL MACHINE
+                        </h3>
+                        <p class="catalog__price">
+                            $56.00 USD
+                        </p>
+                    </li>
+                    <li class="catalog__list_item">
+                        <img class="catalog__img" src="../static/img/christmasAdventScentedCandle.png" alt="CHRISTMAS ADVENT SCENTED CANDLE">
+                        <h3 class="catalog__title">
+                            CHRISTMAS ADVENT SCENTED CANDLE
+                        </h3>
+                        <p class="catalog__price">
+                            $29.00 USD
+                        </p>
+                    </li>
+                    <li class="catalog__list_item">
+                        <img class="catalog__img" src="../static/img/trangleSpinningTeaLight.png" alt="TANGLE SPINNING TEA LIGHT">
+                        <h3 class="catalog__title">
+                            TANGLE SPINNING TEA LIGHT
+                        </h3>
+                        <p class="catalog__price">
+                            $56.00 USD
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <div class="toys__items">
+                <a href="#"><img src="../static/icons/vectorl.svg" alt="" class="toys__link"></a>
+                <ul class="toys__list1">
+                    <li class="toys__desc">
+                        <a href="#">1</a>
+                    </li>
+                    <li class="toys__desc">
+                        <a href="#">2</a>
+                    </li>
+                    <li class="toys__desc">
+                        <a href="#">3</a>
+                    </li>
+                    <li class="toys__desc">
+                        <a href="#">4</a>
+                    </li>
+                </ul>
+                <a href="#"><img src="../static/icons/vectorp.svg" alt="" class="toys__link"></a>
             </div>
-            <div>
-                <button>
-                    Apply
-                </button>
-            </div>
-            <ul>
-                <li>
-                    <img src="../static/img/sharky.png" alt="SHARKY BEAN BAG CHAIR COVER">
-                    <h3>
-                        SHARKY BEAN BAG CHAIR COVER
-                    </h3>
-                    <p>
-                        $60.00 USD
-                    </p>
-                </li>
-                <li>
-                    <img src="../static/img/brassDecoFrames.png" alt="BRASS DECO FRAMES">
-                    <h3>
-                        BRASS DECO FRAMES
-                    </h3>
-                    <p>
-                        $66.00 USD
-                    </p>
-                </li>
-                <li>
-                    <img src="../static/img/ciboFullApron.png" alt="CIBO FULL APRON">
-                    <h3>
-                        CIBO FULL APRON
-                    </h3>
-                    <p>
-                        $60.00 USD
-                    </p>
-                </li>
-                <li>
-                    <img src="../static/img/gathaGumballMachine.png" alt="GATCHA GATCHA GUMBALL MACHINE">
-                    <h3>
-                        GATCHA GATCHA GUMBALL MACHINE
-                    </h3>
-                    <p>
-                        $56.00 USD
-                    </p>
-                </li>
-                <li>
-                    <img src="../static/img/christmasAdventScentedCandle.png" alt="CHRISTMAS ADVENT SCENTED CANDLE">
-                    <h3>
-                        CHRISTMAS ADVENT SCENTED CANDLE
-                    </h3>
-                    <p>
-                        $29.00 USD
-                    </p>
-                </li>
-                <li>
-                    <img src="../static/img/trangleSpinningTeaLight.png" alt="TANGLE SPINNING TEA LIGHT">
-                    <h3>
-                        TANGLE SPINNING TEA LIGHT
-                    </h3>
-                    <p>
-                        $56.00 USD
-                    </p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <button>
-                        1
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        2
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        3
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        4
-                    </button>
-                </li>
-            </ul>
         </section>
     </main>
     <footer class="footer">
@@ -212,59 +217,69 @@
             <h3 class="footer__nav_title">
                 Navigation
             </h3>
+            <hr class="hr-line">
             <ul class="footer__nav_list">
                 <li class="footer__nav_item">
-                    <a href="#">About Us</a>
+                    <a class="footer__color_text" href="#">About Us</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Blog</a>
+                    <a  class="footer__color_text" href="../pages/Blog.html">Blog</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Design Services</a>
+                    <a  class="footer__color_text" href="#">Design Services</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Featured On</a>
+                    <a class="footer__color_text"  href="#">Featured On</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">2018 Holiday Catalog</a>
+                    <a  class="footer__color_text" href="#">2018 Holiday Catalog</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Shop By Designer</a>
+                    <a class="footer__color_text"  href="#">Shop By Designer</a>
                 </li>
             </ul>
-            <fieldset class="rating">
-                <legend class="rating__caption">Company Rating</legend>
-                <div class="rating__group">
-                    <input class="raiting__star" type="radio" name="rating" value= "1" aria-label="Ужасно" checked id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "2" aria-label="Сносно" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "3" aria-label="Нормально" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "4" aria-label="Хорошо" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "5" aria-label="Отлично" id="">
+            <hr class="hr-line1">
+            <div class="rating">
+                <p class="rating__caption"  >Company Rating</p>
+                <div class="simple-raiting">
+                    <div class="simple-raiting__items">
+                        <input id="simple-raiting__5" type="radio" class="simple-raiting__item" name="simple-raiting" value="5">
+                        <label for="simple-raiting__5" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__4" type="radio" class="simple-raiting__item" name="simple-raiting" value="4">
+                        <label for="simple-raiting__4" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__3" type="radio" class="simple-raiting__item" name="simple-raiting" value="3">
+                        <label for="simple-raiting__3" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__2" type="radio" class="simple-raiting__item" name="simple-raiting" value="2">
+                        <label for="simple-raiting__2" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__1" type="radio" class="simple-raiting__item" name="simple-raiting" value="1">
+                        <label for="simple-raiting__1" class="simple-raiting__label" ></label>
+                    </div>
                 </div>
-            </fieldset>
+            </div>
         </section>
         <section class="footer__info" >
             <h3 class="footer__info_title">
                 Customer Information
             </h3>
+            <hr class="hr-line">
             <ul class="footer__info_list">
                 <li class="footer__info_item">
-                    <a href="./pages/Contact  Us.html">Contact Us</a>
+                    <a class="footer__color_text" href="./pages/Contact  Us.html">Contact Us</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Sale Exclusions</a>
+                    <a class="footer__color_text" href="#">Sale Exclusions</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Shipping & Returns</a>
+                    <a class="footer__color_text" href="#">Shipping & Returns</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Terms & Conditions</a>
+                    <a class="footer__color_text" href="#">Terms & Conditions</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Privacy Policy</a>
+                    <a class="footer__color_text" href="#">Privacy Policy</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Search</a>
+                    <a class="footer__color_text" href="#">Search</a>
                 </li>
             </ul>
             <p class="footer__info_text">
@@ -275,6 +290,7 @@
             <h3 class="footer__connect_title">
                 Connect
             </h3>
+            <hr class="hr-line">
             <form action="#" class="footer__connect_email">
                 <input type="Email" placeholder="Email" class="connect_email">
                 <button class="footer__connect_button">

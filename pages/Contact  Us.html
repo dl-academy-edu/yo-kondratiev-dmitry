@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="../style/contact us.css">
     <link rel="stylesheet" href="../style/common.css">
     <link rel="stylesheet" href="../style/normolize.css">
     <title>Document</title>
@@ -20,13 +20,13 @@
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__list_item">
-                    <a href="../pages/Blog.html">Blog</a>
+                    <a class="nav__link" href="../pages/Blog.html">Blog</a>
                 </li>
                 <li class="nav__list_item">
-                    <a href="../pages/Catalog.html">Catalog</a>
+                    <a class="nav__link" href="../pages/Catalog.html">Catalog</a>
                 </li>        
                 <li class="nav__list_item">
-                    <a href="#">About Us</a>
+                    <a class="nav__link" href="#">About Us</a>
                 </li>
             </ul>
             <ul class="nav__contact">
@@ -39,105 +39,130 @@
             </ul>
         </nav>  
     </header>    
-    <main>
+    <main class="main">
         <section>
-            <h1>
-                Contact  Us
+            <h1 class="main__title">
+                CONTACT US
             </h1>
-            <ul>
-                <li>
+            <ul class="main__contact">
+                <li class="main__contact_list">
                     <a href="../index.html">Home</a>
                 </li>
-                <li>
-                    <a href="./Contact  Us.html">Contact  Us</a>
+                <img src="../static/icons/stroke.svg" alt="" class="main__contact_list">
+                <li class="main__contact_list">
+                    <a href="./Blog.html">Contact  Us</a>
                 </li>
             </ul>
-            <form action="#">
-                <div>
-                    <div>
-                        <label for="input_name">Name</label>
-                        <input type="text" id="input_name" placeholder="Ivan Ivanov">
+            <section class="section">
+                <form action="#">
+                    <div class="form">
+                        <div class="form__title">
+                            <label class="form__name" for="input_name">Name</label>
+                            <input class="form__name_input" type="text" id="input_name" placeholder="Ivan Ivanov">
+                        </div>
+                        <section class="form__sec">
+                            <div class="form__phone">
+                                <label class="form__phone_item" for="input_phone">Phone</label>
+                                <input class="form__phone_input" type="tel" id="input_phone">
+                            </div>
+                            <div class="form__email">
+                                <label class="form__email_item" for="input_email">Email</label>
+                                <input class="form__email_input" type="email" id="input_email">
+                            </div>
+                        </section>
+                        <div class="form__massage">
+                            <label class="form__massage_item" for="textarea">Message</label>
+                            <textarea class="form__massage_input"name="" id="textarea" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="form__box">
+                            <input class="form__box_input" type="checkbox" name="report" id="input_yes">
+                            <label class="form__box_text">By clicking on the button, you consent to the processing of your personal data</label>
+                        </div>
+                        <button class="form__button" type="submit">SUBMIT</button>
                     </div>
-                    <div>
-                        <label for="input_phone">Phone</label>
-                        <input type="tel" id="input_phone">
-                    </div>
-                    <div>
-                        <label for="input_email">Email</label>
-                        <input type="email" id="input_email">
-                    </div>
-                    <div>
-                        <label for="textarea">Message</label>
-                        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="report" id="input_yes">
-                        <label>By clicking on the button, you consent to the processing of your personal data</label>
-                    </div>
-                    <button type="submit">SUBMIT</button>
-                </div>
-            </form>
+                </form>
+                <section class="section__text">
+                    <p class="contact__text">
+                        Our support team are on-hand to assist with any issues you are experiencing.
+                    </p>
+                    <p class="contact__text">
+                        Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.
+                    </p>
+                    <h2 class="contact__title">
+                        AN EXPERT IS WAITING TO HELP YOU!
+                    </h2>
+                </section>
+            </section>
         </section>
-        
     </main>
     <footer class="footer">
         <section class="footer__nav">
             <h3 class="footer__nav_title">
                 Navigation
             </h3>
+            <hr class="hr-line">
             <ul class="footer__nav_list">
                 <li class="footer__nav_item">
-                    <a href="#">About Us</a>
+                    <a class="footer__color_text" href="#">About Us</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Blog</a>
+                    <a  class="footer__color_text" href="../pages/Blog.html">Blog</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Design Services</a>
+                    <a  class="footer__color_text" href="#">Design Services</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Featured On</a>
+                    <a class="footer__color_text"  href="#">Featured On</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">2018 Holiday Catalog</a>
+                    <a  class="footer__color_text" href="#">2018 Holiday Catalog</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Shop By Designer</a>
+                    <a class="footer__color_text"  href="#">Shop By Designer</a>
                 </li>
             </ul>
-            <fieldset class="rating">
-                <legend class="rating__caption">Company Rating</legend>
-                <div class="rating__group">
-                    <input class="raiting__star" type="radio" name="rating" value= "1" aria-label="Ужасно" checked id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "2" aria-label="Сносно" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "3" aria-label="Нормально" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "4" aria-label="Хорошо" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "5" aria-label="Отлично" id="">
+            <hr class="hr-line1">
+            <div class="rating">
+                <p class="rating__caption"  >Company Rating</p>
+                <div class="simple-raiting">
+                    <div class="simple-raiting__items">
+                        <input id="simple-raiting__5" type="radio" class="simple-raiting__item" name="simple-raiting" value="5">
+                        <label for="simple-raiting__5" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__4" type="radio" class="simple-raiting__item" name="simple-raiting" value="4">
+                        <label for="simple-raiting__4" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__3" type="radio" class="simple-raiting__item" name="simple-raiting" value="3">
+                        <label for="simple-raiting__3" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__2" type="radio" class="simple-raiting__item" name="simple-raiting" value="2">
+                        <label for="simple-raiting__2" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__1" type="radio" class="simple-raiting__item" name="simple-raiting" value="1">
+                        <label for="simple-raiting__1" class="simple-raiting__label" ></label>
+                    </div>
                 </div>
-            </fieldset>
+            </div>
         </section>
         <section class="footer__info" >
             <h3 class="footer__info_title">
                 Customer Information
             </h3>
+            <hr class="hr-line">
             <ul class="footer__info_list">
                 <li class="footer__info_item">
-                    <a href="./pages/Contact  Us.html">Contact Us</a>
+                    <a class="footer__color_text" href="./pages/Contact  Us.html">Contact Us</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Sale Exclusions</a>
+                    <a class="footer__color_text" href="#">Sale Exclusions</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Shipping & Returns</a>
+                    <a class="footer__color_text" href="#">Shipping & Returns</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Terms & Conditions</a>
+                    <a class="footer__color_text" href="#">Terms & Conditions</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Privacy Policy</a>
+                    <a class="footer__color_text" href="#">Privacy Policy</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Search</a>
+                    <a class="footer__color_text" href="#">Search</a>
                 </li>
             </ul>
             <p class="footer__info_text">
@@ -148,6 +173,7 @@
             <h3 class="footer__connect_title">
                 Connect
             </h3>
+            <hr class="hr-line">
             <form action="#" class="footer__connect_email">
                 <input type="Email" placeholder="Email" class="connect_email">
                 <button class="footer__connect_button">

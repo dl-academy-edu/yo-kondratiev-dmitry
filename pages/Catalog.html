@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="../style/catalog.css">
     <link rel="stylesheet" href="../style/common.css">
     <link rel="stylesheet" href="../style/normolize.css">
     <title>Document</title>
@@ -20,13 +20,13 @@
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__list_item">
-                    <a href="../pages/Blog.html">Blog</a>
+                    <a class="nav__link" href="../pages/Blog.html">Blog</a>
                 </li>
                 <li class="nav__list_item">
-                    <a href="../pages/Catalog.html">Catalog</a>
+                    <a class="nav__link" href="../pages/Catalog.html">Catalog</a>
                 </li>        
                 <li class="nav__list_item">
-                    <a href="#">About Us</a>
+                    <a class="nav__link" href="#">About Us</a>
                 </li>
             </ul>
             <ul class="nav__contact">
@@ -39,52 +39,61 @@
             </ul>
         </nav>  
     </header>   
-    <main>
-        <section>
-            <h1>
-                Category Products
+    <main class="main">
+        <section class="main__sec">
+            <h1 class="main__title">
+                CATEGORY PRODUCTS
             </h1>
-            <ul>
-                <li>
+            <ul class="main__list">
+                <li class="main__items">
                     <a href="../index.html">Home</a>
                 </li>
-                <li>
+                <img src="../static/icons/stroke.svg" alt="" class="main__items">
+                <li class="main__items">
                     <a href="./Catalog.html">Catalog</a>
                 </li>
             </ul>
-            <ul>
-                <li>
-                    <a href="../static/img/image1.jpg">APPAREL <br> KIDS</a>
-                    <img src="#" alt="">
+            <ul class="sec__list1">
+                <li class="sec__list_item">
+                    <a href="#" class="sec__list_items">APPAREL <br> KIDS</a>
+                    <img src="../static/img/image1.jpg" alt="">
                 </li>
-                <li>
-                    <a href="../static/img/image2.jpg">HOLIDAY <br> SHOP</a>
-                    <img src="#" alt="">
+                <li class="sec__list_item">
+                    <a href="#" class="sec__list_items">HOLIDAY <br> SHOP</a>
+                    <img src="../static/img/image2.jpg" alt="">
                 </li>
-                <li>
-                    <a href="./Toys.html">TOYS</a>
+                <li class="sec__list_item">
+                    <a href="./Toys.html" class="sec__list_items">TOYS</a>
                     <img src="../static/img/image3.jpg" alt="">
                 </li>
-                <li>
-                    <a href="#">ACCESSORIES</a>
+            </ul>
+            <ul class="sec__list2">
+                <li class="sec__list_item">
+                    <a href="#" class="sec__list_items">ACCESSORIES</a>
                     <img src="../static/img/image4.jpg" alt="">
                 </li>
-                <li>
-                    <a href="#">SALE</a>
+                <li class="sec__list_item">
+                    <a href="#" class="sec__list_items">SALE</a>
                     <img src="../static/img/image6.jpg" alt="">
                 </li>
-                <li>
-                    <a href="#">APPAREL <br> ADULTS</a>
+                <li class="sec__list_item">
+                    <a href="#" class="sec__list_items">APPAREL <br> ADULTS</a>
                     <img src="../static/img/image7.jpg" alt="">
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>
-                Product Description
+        <section class="sectext">
+            <h2 class="sectext__subtitle">
+                PRODUCT DESCRIPTION
             </h2>
-            <p>
-                Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister. <br> A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old. <br> The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.
+            <p class="sectext_text">
+                Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.
+            </p>
+            <p class="sectext_text">
+                A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old. 
+            </p>
+            <p class="sectext_text">
+                The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.
             </p>
         </section>
     </main>
@@ -93,59 +102,69 @@
             <h3 class="footer__nav_title">
                 Navigation
             </h3>
+            <hr class="hr-line">
             <ul class="footer__nav_list">
                 <li class="footer__nav_item">
-                    <a href="#">About Us</a>
+                    <a class="footer__color_text" href="#">About Us</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Blog</a>
+                    <a  class="footer__color_text" href="../pages/Blog.html">Blog</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Design Services</a>
+                    <a  class="footer__color_text" href="#">Design Services</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Featured On</a>
+                    <a class="footer__color_text"  href="#">Featured On</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">2018 Holiday Catalog</a>
+                    <a  class="footer__color_text" href="#">2018 Holiday Catalog</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Shop By Designer</a>
+                    <a class="footer__color_text"  href="#">Shop By Designer</a>
                 </li>
             </ul>
-            <fieldset class="rating">
-                <legend class="rating__caption">Company Rating</legend>
-                <div class="rating__group">
-                    <input class="raiting__star" type="radio" name="rating" value= "1" aria-label="Ужасно" checked id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "2" aria-label="Сносно" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "3" aria-label="Нормально" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "4" aria-label="Хорошо" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "5" aria-label="Отлично" id="">
+            <hr class="hr-line1">
+            <div class="rating">
+                <p class="rating__caption"  >Company Rating</p>
+                <div class="simple-raiting">
+                    <div class="simple-raiting__items">
+                        <input id="simple-raiting__5" type="radio" class="simple-raiting__item" name="simple-raiting" value="5">
+                        <label for="simple-raiting__5" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__4" type="radio" class="simple-raiting__item" name="simple-raiting" value="4">
+                        <label for="simple-raiting__4" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__3" type="radio" class="simple-raiting__item" name="simple-raiting" value="3">
+                        <label for="simple-raiting__3" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__2" type="radio" class="simple-raiting__item" name="simple-raiting" value="2">
+                        <label for="simple-raiting__2" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__1" type="radio" class="simple-raiting__item" name="simple-raiting" value="1">
+                        <label for="simple-raiting__1" class="simple-raiting__label" ></label>
+                    </div>
                 </div>
-            </fieldset>
+            </div>
         </section>
         <section class="footer__info" >
             <h3 class="footer__info_title">
                 Customer Information
             </h3>
+            <hr class="hr-line">
             <ul class="footer__info_list">
                 <li class="footer__info_item">
-                    <a href="./pages/Contact  Us.html">Contact Us</a>
+                    <a class="footer__color_text" href="./pages/Contact  Us.html">Contact Us</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Sale Exclusions</a>
+                    <a class="footer__color_text" href="#">Sale Exclusions</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Shipping & Returns</a>
+                    <a class="footer__color_text" href="#">Shipping & Returns</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Terms & Conditions</a>
+                    <a class="footer__color_text" href="#">Terms & Conditions</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Privacy Policy</a>
+                    <a class="footer__color_text" href="#">Privacy Policy</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Search</a>
+                    <a class="footer__color_text" href="#">Search</a>
                 </li>
             </ul>
             <p class="footer__info_text">
@@ -156,6 +175,7 @@
             <h3 class="footer__connect_title">
                 Connect
             </h3>
+            <hr class="hr-line">
             <form action="#" class="footer__connect_email">
                 <input type="Email" placeholder="Email" class="connect_email">
                 <button class="footer__connect_button">
@@ -180,6 +200,6 @@
                 Web Design — Direct Line Development
             </p>
         </section>
-    </footer> 
+    </footer>
 </body>
 </html>

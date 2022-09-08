@@ -1,7 +1,11 @@
 /* blog*/
 
+.main{
+    margin-left: 110px;
+}
+
 .main__h1{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -12,13 +16,14 @@
 }
 
 .main__blog{
-    font-family: 'Crimson Text';
+    font-family: 'Crimson Text',serif;
     font-style: italic;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     color: #1E0606;
     display: flex;
+    padding: 0;
 }
 
 .main__blog_list{
@@ -28,6 +33,11 @@
 .blog__list{
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+}
+
+.sec__blog{
+    width: 1400px;
 }
 
 .blog__list_item{
@@ -63,14 +73,21 @@
 }
 
 .blog__items{
-    display: inline;
+    display: flex;
     padding: 0;
+    margin: 53px 0 0;
 }
 
 .blog__link{
     color: #1E0606;
     width: 13px;
     height: 26px;
+}
+
+.blog__list1{
+    margin: 4px 0; 
+    padding-left: 425px;
+    padding-right: 425px;
 }
 
 .blog__desc{
@@ -82,5 +99,5 @@
     text-transform: uppercase;
     color: #1E0606;
     display: inline;
-    padding-right: 64px;
+    padding: 0 32px;
 }
