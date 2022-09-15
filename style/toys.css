@@ -214,15 +214,17 @@
     color: #1E0606;
     width: 13px;
     height: 26px;
+    border: none;
+    background: none;
 }
 
-.toys__list1{
+.toys__list_button{
     margin: 4px 0; 
     padding-left: 425px;
     padding-right: 425px;
 }
 
-.toys__desc{
+.toys__button{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -232,4 +234,6 @@
     color: #1E0606;
     display: inline;
     padding: 0 32px;
+    border: none;
+    background: none;
 }
