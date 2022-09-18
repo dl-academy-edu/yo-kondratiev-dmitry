@@ -142,6 +142,13 @@
     line-height: 22px;
     color: #1E0606;
     background: #FFFFFF;
+    cursor: pointer;
+}
+.amount__list_item:hover{
+    background: #EDDEEB;
+}
+.amount__list_item:active{
+    background: #F3D0DB;;
 }
 
 .sec__apply_title{

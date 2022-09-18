@@ -62,6 +62,12 @@
     line-height: 31px;
     color: #1E0606;
 }
+.blog__title:hover{
+    text-decoration: underline;
+}
+.blog__title:active{
+    text-decoration: underline;
+}
 
 .blog__text{
     font-family: 'Open Sans';

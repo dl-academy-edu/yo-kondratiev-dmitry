@@ -73,9 +73,11 @@
     margin-top: 11px;
     width: 31px;
     height: 3px;
-    background: rgba(30, 6, 6, 0.6);
+    background: #D6CAC2;
     border: none;
-
+}
+.main__baner_link:hover{
+    background: #725F5B;
 }
 
 .main__baner_sec{
@@ -119,6 +121,13 @@
     margin-right: 20px;
     position: relative;
 }
+.category__list-link:hover{
+    text-decoration: underline;
+}
+.category__list-link:active{
+    text-decoration: underline;
+}
+
 .category__list-link{
     text-decoration: none;
     position: absolute;
@@ -374,4 +383,135 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
+}
+
+/* popup */
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(125, 151, 218, 0.8);
+    bottom: 0;
+    z-index: 2;
+    display: none;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.popup__list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1E0606;
+    margin-left: 40px;
+}
+
+.popup__title{
+    display: none;
+}
+.popup-open {
+    display: flex;
+}
+
+.popup-form {
+    width: 680px;
+    background:#E5EAF8;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.popup-close {
+    border: none;
+    color:  #FFFFFF;;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    cursor: pointer;
+}
+
+.popup__list_name{
+    margin-top: 42px;
+    width: 600px;
+}
+
+.popup__name_content{
+    box-sizing: border-box;
+    width: 600px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin-top: 6px;
+}
+.popup__list_sec{
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+    width: 600px;
+}
+
+.popup__list_phone{
+    width: 290px;
+}
+
+.popup__sec_content{
+    width: 288px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin-top: 6px;
+}
+
+.popup__list_email{
+    width: 290px;
+}
+.popup__list_massage{
+    width: 600px;
+    margin-top: 20px;
+}
+
+.popup__massage_content{
+    width: 598px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin-top: 6px;
+}
+
+.popup__list_box{
+    margin-top: 20px;
+}
+.popup__box_item{
+    width: 19px;
+    height: 19px;
+    border: 2px solid #C29974;
+    border-radius: 3px;
+}
+.popup__box_text{
+    margin-left: 15px;
+}
+.popup__button{
+    align-items: center;
+    width: 106px;
+    height: 40px;
+    background: #C1C1C1;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #E1E1E1;
+    margin: 20px 0 42px 40px;
+    border: none;
 }

@@ -122,6 +122,12 @@ li{
 .nav{
     display: flex;
 }
+.nav__logo:hover{
+    opacity:0.6;
+}
+.nav__logo:active{
+    opacity:0.3;
+}
 .nav__list{
     display: flex;
     column-gap: 20px;
@@ -132,6 +138,18 @@ li{
 }
 .contact_item{
     margin-right: 18px;
+}
+.nav__list_item:hover{
+    opacity: 0.6;
+}
+.nav__list_item:active{
+    opacity: 0.3;
+}
+.contact_us:hover{
+    opacity: 0.6;
+}
+.contact_us:active{
+    opacity: 0.3;
 }
 
 /* footer */
@@ -217,7 +235,7 @@ li{
 .footer__connect_text{
     margin-top: 162px;
 }
-/*звезды*/
+
 /*Rating*/
 .rating{
     display: flex;
@@ -292,7 +310,6 @@ li{
 .simple-raiting__label:checked ~ .simple-raiting__label:hover{
     color: #836E5B;
 }
-
 
 .hr-line {
 	margin: 23px 0 0 0 ;

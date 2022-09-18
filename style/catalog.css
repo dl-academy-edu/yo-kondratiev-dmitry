@@ -74,6 +74,12 @@
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+.sec__list_items:hover{
+    text-decoration: underline;
+}
+.sec__list_items:active{
+    text-decoration: underline;
+}
 
 .sectext{
     margin-left: 200px;
