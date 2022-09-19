@@ -151,6 +151,12 @@ li{
 .contact_us:active{
     opacity: 0.3;
 }
+.contact__item_img:hover{
+    opacity: 0.6;
+}
+.contact__item_img:active{
+    opacity: 0.3;
+}
 
 /* footer */
 
