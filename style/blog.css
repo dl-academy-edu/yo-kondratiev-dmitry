@@ -1,54 +1,113 @@
-/*Шрифты*/
-.main__page_title {
-    font-family: 'Montserrat', sans-serif;
+/* blog*/
+
+.main{
+    margin-left: 110px;
+}
+
+.main__h1{
+    font-family: 'Montserrat',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
+    text-transform: uppercase;
     color: #1E0606;
+    margin-top: 60px;
 }
-.main__list_title {
-    font-family: 'Crimson Text', serif;
+
+.main__blog{
+    font-family: 'Crimson Text',serif;
     font-style: italic;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     color: #1E0606;
+    display: flex;
+    padding: 0;
 }
-.main__list_itemBlog {
-    opacity: 0.5;
+
+.main__blog_list{
+    margin-right: 20px;
 }
-.main_date {
-    font-family: 'Open Sans', sans-serif;
+
+.blog__list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.sec__blog{
+    width: 1400px;
+}
+
+.blog__list_item{
+    width: 380px;
+    margin-right: 20px;
+}
+
+.blog__date{
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     color: #818181;
-    mix-blend-mode: normal;
 }
-.main__title {
-    font-family: 'Montserrat', sans-serif;
+
+.blog__title{
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
     color: #1E0606;
 }
-.main__text {
-    font-family: 'Open Sans', sans-serif;
+.blog__title:hover{
+    text-decoration: underline;
+}
+.blog__title:active{
+    text-decoration: underline;
+}
+
+.blog__text{
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     color: #1E0606;
 }
-.main__list {
-    font-family: 'Montserrat', sans-serif;
+
+.blog__items{
+    display: flex;
+    padding: 0;
+    margin: 53px 0 0;
+}
+
+.blog__link{
+    color: #1E0606;
+    width: 13px;
+    height: 26px;
+    border: none;
+    background: none;
+}
+
+.blog__list_button{
+    margin: 4px 0; 
+    padding-left: 425px;
+    padding-right: 425px;
+}
+
+.blog__button{
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
     color: #1E0606;
+    display: inline;
+    padding: 0 32px;
+    border: none;
+    background: none;
 }

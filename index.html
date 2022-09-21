@@ -6,30 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat&family=Open+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/normolize.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="/index.html">
+    <header class="header">
+        <a class="nav__logo" href="/index.html">
             <img src="./static/icons/logo.svg" alt="Logo">
         </a>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__list_item">
-                    <a href="./pages/Blog.html">Blog</a>
+                    <a class="nav__link" href="./pages/Blog.html">Blog</a>
                 </li>
                 <li class="nav__list_item">
-                    <a href="./pages/Catalog.html">Catalog</a>
+                    <a class="nav__link" href="./pages/Catalog.html">Catalog</a>
                 </li>        
                 <li class="nav__list_item">
-                    <a href="#">About Us</a>
+                    <a class="nav__link" href="#">About Us</a>
                 </li>
-                <li class="nav__list_item">
-                    <img src="./static/icons/search.png" alt="search">
+            </ul>
+            <ul class="nav__contact">
+                <li class="contact_item">
+                    <a class="contact__item_img" href="./pages/Contact  Us.html"> <img src="./static/icons/search.png" alt="search"> </a>
                 </li>
                 <li class="nav__list_itemContact">
                     <a class="contact_us" href="./pages/Contact  Us.html">Contact  Us </a>
@@ -39,92 +41,106 @@
     </header>     
     <main class="main">
             <section class="main__baner">
-                <ul>
+                <ul class="main__baner_list">
                     <li>
-                    </ul>
-                    <p class="main__buner_subject">
-                        01
-                    </p>
-                    <button class="main__baner_link">
-                        
-                    </button>
-                    <button class="main__baner_link">
-                        
-                    </button>
-                    <button class="main__baner_link">
-                        
-                    </button>
-                    <button class="main__baner_link">
-                        
-                    </button>
+                        <p class="main__buner_subject">
+                            01
+                        </p>
+                        <button class="main__baner_link">
+                            
+                        </button>
+                        <button class="main__baner_link">
+                            
+                        </button>
+                        <button class="main__baner_link">
+                            
+                        </button>
+                        <button class="main__baner_link">
+                            
+                        </button>
                     </li>
-                <h1 class="main__baner_title "> 
-                    THE OOH NOO COLLECTION 
-                </h1>
-                <p class="main__baner_text">
-                    Designed in Slovenia 
-                </p>
-                <button class="main__button_baner">
-                    EXPLORE NOW
-                </button>
-                <img src="./static/img/baner.png" alt="baner">
-                <p class="main__baner_desc">
-                    Free (continental) USA shipping on all orders of $100 USD or more!
-                </p>
+                </ul>
+                <section class="main__baner_sec">
+                    <h1 class="main__baner_title "> 
+                        THE OOH NOO COLLECTION 
+                    </h1>
+                    <p class="main__baner_text">
+                        Designed in Slovenia 
+                    </p>
+                    <button class="main__button_baner banner-js">
+                        EXPLORE NOW
+                    </button>
+                </section>
+                <section>
+                    <img class="main__baner_img" src="./static/img/baner.png" alt="baner">
+                </section>
+                <section class="main__baner_descSec">
+                    <p class="main__baner_desc">
+                        FREE (CONTINENTAL) USA SHIPPING ON ALL ORDERS OF $100 USD R MORE!
+                    </p>
+                </section>
             </section>
             <section class="main__category">
                 <h2 class="main__category_title">
-                    Category Products
+                    CATEGOTY PRODUCTS
                 </h2>
-                <ul>
+                <ul class="main__category_list">
                     <li class="main__category_link">
-                        <a href="#">APPAREL <br> KIDS</a>
+                        <a href="#" class="category__list-link" >APPAREL <br> KIDS</a>
                         <img src="./static/img/image1.jpg" alt="">
                     </li>
                     <li class="main__category_link">
-                        <a href="#">HOLIDAY <br> SHOP</a>
+                        <a href="#" class="category__list-link" >HOLIDAY <br> SHOP</a>
                         <img src="./static/img/image2.jpg" alt="">
                     </li>
                     <li class="main__category_link">
-                        <a href="./pages/Toys.html">TOYS</a>
+                        <a href="../pages/Toys.html" class="category__list-link" >TOYS</a>
                         <img src="./static/img/image3.jpg" alt="">
                     </li>
                     <li class="main__category_link">
-                        <a href="#">ACCESSORIES</a>
+                        <a href="#" class="category__list-link" >ACCESSORIES</a>
                         <img src="./static/img/image4.jpg" alt="">
                     </li>
                 </ul>
-                <button class="main__category_button">
-                    <img src="./static/icons/vectorl.svg" alt="">
-                </button>
-                <button class="main__category_button">
-                    <img src="./static/icons/vectorp.svg" alt="">
-                </button>
-                <p class="main__category_slogan">
-                    Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.
-                </p>
+                <section class="categoty__sec">
+                    <button class="main__category_button">
+                        <img src="./static/icons/vectorl.svg" alt="">
+                    </button>
+                    <button class="main__category_button">
+                        <img src="./static/icons/vectorp.svg" alt="">
+                    </button>
+                    <p class="main__category_slogan">
+                        Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.
+                    </p>
+                </section>
             </section>
             <section class="main__delivery">
-                <img src="./static/img/image5.jpg" alt="">
-                <h2 class="main__delivery_title">
-                    Delivery
-                </h2>
-                <ul>
-                    <li class="main__delivery_subtitle">
-                        <a href="#">Delivery</a>
-                    </li>
-                    <li class="main__delivery_link">
-                        <a href="#">Guarantee</a>
-                    </li>
-                    <li class="main__delivery_link">
-                        <a href="#">Credit</a>
-                    </li>
-                </ul>
-                <p class="main__delivery_text">
-                    Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical. 
-                    <br> What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!
-                </p>
-                <a href="#" class="main__delivery_button">LEARN MORE</a>
+                <section>
+                    <img src="./static/img/image5.jpg" alt="">
+                </section>
+                <section class="delivery">
+                    <h2 class="main__delivery_title">
+                        DELIVERY
+                    </h2>
+                    <ul class="delivery__list">
+                        <li class="main__delivery_subtitle">
+                            <a href="#">Delivery</a>
+                        </li>
+                        <li class="main__delivery_link">
+                            <a href="#">Guarantee</a>
+                        </li>
+                        <li class="main__delivery_link">
+                            <a href="#">Credit</a>
+                        </li>
+                    </ul>
+                    <p class="main__delivery_text">
+                        Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical. 
+                    </p>
+                    <p class="main__delivery_text">
+                        What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!
+                    </p>
+                    <button href="#" class="main__delivery_button">LEARN MORE</button>
+                </section>
             </section>
             <section class="main__logo">
                 <h2 class="main__logo_title">
@@ -145,90 +161,103 @@
                     </li>
                 </ul>
             </section>
-            <section class="main__aside">
-                <h2 class="main__aside_title">
-                    DESIGN LIFE KIDS
-                </h2>
-                <a href="#" class="main__aside_subtitle">
-                    About Us
-                </a>
-                <p class="main__aside_text">
-                    Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.  
-                </p>
-                <button class="main__aside_button">
-                    BUY NOW
-                </button>
-            </section>
-            <section class="main__contacts">
-                <h2 class="main__contacts_title">
-                    CONTACTS
-                </h2>
-                <p class="main__contacts_text">
-                    Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.
-                </p>
-                <div class="main__contacts_map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1410.7398378434598!2d49.29041237114495!3d53.51183802124661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2zREwgQWNhZGVteSDigJQg0LrRg9GA0YHRiyDQv9GA0L7Qs9GA0LDQvNC80LjRgNC-0LLQsNC90LjRjw!5e0!3m2!1sru!2sru!4v1661234062761!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
+            <div class="main__aside">
+                <section class="main__aside_link">
+                    <h2 class="main__aside_title">
+                        DESIGN LIFE KIDS
+                    </h2>
+                    <p class="main__aside_subtitle">
+                        About Us
+                    </p>
+                    <p class="main__aside_text">
+                        Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.  
+                    </p>
+                    <button class="main__aside_button">
+                        BUY NOW
+                    </button>
+                </section>
+                <section class="main__contacts">
+                    <h2 class="main__contacts_title">
+                        CONTACTS
+                    </h2>
+                    <p class="main__contacts_text">
+                        Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.
+                    </p>
+                    <div class="main__contacts_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1410.7398378434598!2d49.29041237114495!3d53.51183802124661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2zREwgQWNhZGVteSDigJQg0LrRg9GA0YHRiyDQv9GA0L7Qs9GA0LDQvNC80LjRgNC-0LLQsNC90LjRjw!5e0!3m2!1sru!2sru!4v1661234062761!5m2!1sru!2sru" width="483" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+            </div>
+            
     </main>
     <footer class="footer">
         <section class="footer__nav">
             <h3 class="footer__nav_title">
                 Navigation
             </h3>
+            <hr class="hr-line">
             <ul class="footer__nav_list">
                 <li class="footer__nav_item">
-                    <a href="#">About Us</a>
+                    <a class="footer__color_text" href="#">About Us</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Blog</a>
+                    <a  class="footer__color_text" href="./pages/Blog.html">Blog</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Design Services</a>
+                    <a  class="footer__color_text" href="#">Design Services</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Featured On</a>
+                    <a class="footer__color_text"  href="#">Featured On</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">2018 Holiday Catalog</a>
+                    <a  class="footer__color_text" href="#">2018 Holiday Catalog</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Shop By Designer</a>
+                    <a class="footer__color_text"  href="#">Shop By Designer</a>
                 </li>
             </ul>
-            <fieldset class="rating">
-                <legend class="rating__caption">Company Rating</legend>
-                <div class="rating__group">
-                    <input class="raiting__star" type="radio" name="rating" value= "1" aria-label="Ужасно" checked id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "2" aria-label="Сносно" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "3" aria-label="Нормально" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "4" aria-label="Хорошо" id="">
-                    <input class="raiting__star" type="radio" name="rating" value= "5" aria-label="Отлично" id="">
+            <hr class="hr-line1">
+            <div class="rating">
+                <p class="rating__caption" name="simple-raiting">Company Rating</p>
+                <div class="simple-raiting">
+                    <div class="simple-raiting__items">
+                        <input id="simple-raiting__5" type="radio" class="simple-raiting__item" name="simple-raiting" value="5">
+                        <label for="simple-raiting__5" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__4" type="radio" class="simple-raiting__item" name="simple-raiting" value="4">
+                        <label for="simple-raiting__4" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__3" type="radio" class="simple-raiting__item" name="simple-raiting" value="3">
+                        <label for="simple-raiting__3" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__2" type="radio" class="simple-raiting__item" name="simple-raiting" value="2">
+                        <label for="simple-raiting__2" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__1" type="radio" class="simple-raiting__item" name="simple-raiting" value="1">
+                        <label for="simple-raiting__1" class="simple-raiting__label" ></label>
+                    </div>
                 </div>
-            </fieldset>
+            </div>
         </section>
         <section class="footer__info" >
             <h3 class="footer__info_title">
                 Customer Information
             </h3>
+            <hr class="hr-line">
             <ul class="footer__info_list">
                 <li class="footer__info_item">
-                    <a href="./pages/Contact  Us.html">Contact Us</a>
+                    <a class="footer__color_text" href="./pages/Contact  Us.html">Contact Us</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Sale Exclusions</a>
+                    <a class="footer__color_text" href="#">Sale Exclusions</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Shipping & Returns</a>
+                    <a class="footer__color_text" href="#">Shipping & Returns</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Terms & Conditions</a>
+                    <a class="footer__color_text" href="#">Terms & Conditions</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Privacy Policy</a>
+                    <a class="footer__color_text" href="#">Privacy Policy</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Search</a>
+                    <a class="footer__color_text" href="#">Search</a>
                 </li>
             </ul>
             <p class="footer__info_text">
@@ -239,24 +268,25 @@
             <h3 class="footer__connect_title">
                 Connect
             </h3>
-            <form action="#">
-                <input type="Email" placeholder="Email">
+            <hr class="hr-line">
+            <form action="#" class="footer__connect_email">
+                <input type="Email" placeholder="Email" class="connect_email">
                 <button class="footer__connect_button">
                     Join
                 </button>
             </form>
             <ul class="footer__connect_list">
                 <li class="footer__connect_item">
-                    <a href="#"><img src="./static/icons/facebook.svg" alt="">Facebook</a>
+                    <a href="#"><img src="./static/icons/facebook.svg" alt="Facebook"></a>
                 </li>
-                <li>
-                    <a href="#"><img src="./static/icons/twitter.svg" alt="">Twitter</a>
+                <li class="footer__connect_item">
+                    <a href="#"><img src="./static/icons/twitter.svg" alt="Twitter"></a>
                 </li>
-                <li>
-                    <a href="#"><img src="./static/icons/pinterest.svg" alt="">Pinterest</a>
+                <li class="footer__connect_item">
+                    <a href="#"><img src="./static/icons/pinterest.svg" alt="Pinterest"></a>
                 </li>
-                <li>
-                    <a href="#"><img src="./static/icons/instagram.svg" alt="">Instagram</a>
+                <li class="footer__connect_item">
+                    <a href="#"><img src="./static/icons/instagram.svg" alt="Instagram"></a>
                 </li>
             </ul>
             <p class="footer__connect_text">
@@ -264,5 +294,41 @@
             </p>
         </section>
     </footer>
+    <section class="popup">
+        <h2 class="popup__title">Modal Block</h2>
+        <form action="#" class="popup-form">
+            <div class="popup__list">
+                <div class="popup__list_name">
+                    <label class="popup__name" for="input_name">Name</label>
+                    <input class="popup__name_content" type="text" id="input_name">
+                </div>
+                <section class="popup__list_sec">
+                    <div class="popup__list_phone">
+                        <label class="popup__phone_item" for="input_phone">Phone</label>
+                        <input class="popup__sec_content" type="tel" id="input_phone">
+                    </div>
+                    <div class="popup__list_email">
+                        <label class="popup__email_item" for="input_email">Email</label>
+                        <input class="popup__sec_content" type="email" id="input_email">
+                    </div>
+                </section>
+                <div class="popup__list_massage">
+                    <label class="popup__massage_item" for="textarea">Message</label>
+                    <textarea class="popup__massage_content" name="" id="textarea" cols="30" rows="10"></textarea>
+                </div>
+                <div class="popup__list_box">
+                    <input class="popup__box_item" type="checkbox" name="report" id="input_yes">
+                    <label class="popup__box_text">By clicking on the button, you consent to the processing of your personal data</label>
+                </div>
+            </div>
+            <button class="popup__button" type="submit">SUBMIT</button>
+            <button class="popup-close">
+				<svg aria-label="close-btn" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M2.21902 14.6113C1.70029 15.1295 0.893368 15.1295 0.374636 14.6113C0.11527 14.3522 -6.13512e-07 14.0355 -5.9841e-07 13.69C-5.83308e-07 13.3445 0.11527 13.0278 0.374636 12.7687L5.64841 7.5L0.374637 2.23127C0.115271 1.97215 -7.23629e-08 1.65547 -5.72611e-08 1.30998C-4.21593e-08 0.964491 0.115271 0.647806 0.374637 0.388689C0.893369 -0.129545 1.70029 -0.129545 2.21902 0.388689L7.4928 5.65738L12.7666 0.38869C13.2853 -0.129545 14.0922 -0.129545 14.611 0.38869C15.1297 0.906924 15.1297 1.71304 14.611 2.23127L9.33718 7.5L14.611 12.7687C15.1297 13.287 15.1297 14.0931 14.611 14.6113C14.0922 15.1295 13.2853 15.1295 12.7666 14.6113L7.4928 9.34258L2.21902 14.6113Z" fill="#FFFFFF"/>
+				</svg>
+			</button>
+        </form>
+    </section>
+    <script src="js/index.js"></script>
 </body>
 </html>

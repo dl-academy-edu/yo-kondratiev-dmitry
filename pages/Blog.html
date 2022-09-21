@@ -10,141 +10,143 @@
     <link rel="stylesheet" href="../style/blog.css">
     <link rel="stylesheet" href="../style/common.css">
     <link rel="stylesheet" href="../style/normolize.css">
-    <title>Document</title>
+    <title>BLog</title>
 </head>
 <body>
-    <header>
-        <a href="../index.html">
+    <header class="header">
+        <a class="nav__logo" href="/index.html">
             <img src="../static/icons/logo.svg" alt="Logo">
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__list_item">
-                        <a href="../pages/Blog.html">Blog</a>
-                    </li>
-                    <li class="nav__list_item">
-                        <a href="../pages/Catalog.html">Catalog</a>
-                    </li>        
-                    <li class="nav__list_item">
-                        <a href="#">About Us</a>
-                    </li>
-                    <li class="nav__list_item">
-                        <img src="../static/icons/search.png" alt="search">
-                    </li>
-                    <li class="nav__list_itemContact">
-                        <a class="contact_us" href="../pages/Contact  Us.html">Contact  Us </a>
-                    </li>
-                </ul>
-            </nav>  
-    </header> 
-    <main>
-        <section class="main">
-            <h1 class="main__page_title">
+        </a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list_item">
+                    <a class="nav__link" href="../pages/Blog.html">Blog</a>
+                </li>
+                <li class="nav__list_item">
+                    <a class="nav__link" href="../pages/Catalog.html">Catalog</a>
+                </li>        
+                <li class="nav__list_item">
+                    <a class="nav__link" href="#">About Us</a>
+                </li>
+            </ul>
+            <ul class="nav__contact">
+                <li class="contact_item">
+                    <a class="contact__item_img" href="../pages/Contact  Us.html"> <img src="../static/icons/search.png" alt="search"> </a>
+                </li>
+                <li class="nav__list_itemContact">
+                    <a class="contact_us" href="../pages/Contact  Us.html">Contact  Us </a>
+                </li>
+            </ul>
+        </nav>  
+    </header>     
+    <main class="main">
+        <section>
+            <h1 class="main__h1">
                 Blog
             </h1>
-            <ul class="main__list_title">
-                <li class="main__list_itemHome">
+            <ul class="main__blog">
+                <li class="main__blog_list">
                     <a href="../index.html">Home</a>
                 </li>
-                <li class="main__list_itemBlog">
+                <img src="../static/icons/stroke.svg" alt="" class="main__blog_list">
+                <li class="main__blog_list">
                     <a href="./Blog.html">Blog</a>
                 </li>
             </ul>
-            <ul>
-                <li>
-                    <img src="../static/img/blog1.jpg" alt="Top 5 fastest growing it service companies in philly">
-                    <p class="main_date">
-                        23rd August 2018
-                    </p>
-                    <h2 class="main__title">
-                        Top 5 fastest growing it service companies in philly
-                    </h2>
-                    <p class="main__text">
-                        Direct Line Development’s Team is excited to announce that we received UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of service providers in the given marketplace.
-                    </p>
-                </li>
-                <li>
-                    <img src="../static/img/blog2.jpg" alt="Best financial">
-                    <p class="main_date">
-                        23rd August 2018
-                    </p>
-                    <h2 class="main__title">
-                        Best financial
-                    </h2>
-                    <p class="main__text">
-                        Direct Line Development is honored to be recognized as one of the Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.
-                    </p>
-                </li>
-                <li>
-                    <img src="../static/img/blog3.jpg" alt="Company logo or brand identity: which one is more important? brand identity">
-                    <p class="main_date">
-                        23rd August 2018
-                    </p>
-                    <h2 class="main__title">
-                        Company logo or brand identity: which one is more important? brand identity
-                    </h2>
-                    <p class="main__text">
-                        To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.
-                    </p>
-                </li>
-                <li>
-                    <img src="../static/img/blog4.jpg" alt="Best financial">
-                    <p class="main_date">
-                        23rd August 2018
-                    </p>
-                    <h2 class="main__title">
-                        Best financial
-                    </h2>
-                    <p class="main__text">
-                        Direct Line Development is honored to be recognized as one of the Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.
-                    </p>
-                </li>
-                <li>
-                    <img src="../static/img/blog5.jpg" alt="Company logo or brand identity: which one is more important? brand identity">
-                    <p class="main_date">
-                        23rd August 2018
-                    </p>
-                    <h2 class="main__title">
-                        Company logo or brand identity: which one is more important? brand identity
-                    </h2>
-                    <p class="main__text">
-                        To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.
-                    </p>
-                </li>
-                <li>
-                    <img src="../static/img/blog6.jpg" alt="Top 5 fastest growing it service companies in philly">
-                    <p class="main_date">
-                        23rd August 2018
-                    </p>
-                    <h2 class="main__title">
-                        Top 5 fastest growing it service companies in philly
-                    </h2>
-                    <p class="main__text">
-                        Direct Line Development’s Team is excited to announce that we received UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of service providers in the given marketplace.
-                    </p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a class="main__list" href="#">
+            <section class="sec__blog">
+                <ul class=" blog__list">
+                    <li class="blog__list_item">
+                        <img src="../static/img/blog1.jpg" alt="Top 5 fastest growing it service companies in philly">
+                        <p class="blog__date">
+                            23rd August 2018
+                        </p>
+                        <h2 class="blog__title">
+                            Top 5 fastest growing it service companies in philly
+                        </h2>
+                        <p class="blog__text">
+                            Direct Line Development’s Team is excited to announce that we received UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of service providers in the given marketplace.
+                        </p>
+                    </li>
+                    <li class="blog__list_item">
+                        <img src="../static/img/blog2.jpg" alt="Best financial">
+                        <p class="blog__date">
+                            23rd August 2018
+                        </p>
+                        <h2 class="blog__title">
+                            Best financial
+                        </h2>
+                        <p class="blog__text">
+                            Direct Line Development is honored to be recognized as one of the Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.
+                        </p>
+                    </li>
+                    <li class="blog__list_item">
+                        <img src="../static/img/blog3.jpg" alt="Company logo or brand identity: which one is more important? brand identity">
+                        <p class="blog__date">
+                            23rd August 2018
+                        </p>
+                        <h2 class="blog__title">
+                            Company logo or brand identity: which one is more important? brand identity
+                        </h2>
+                        <p class="blog__text">
+                            To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.
+                        </p>
+                    </li>
+                    <li class="blog__list_item">
+                        <img src="../static/img/blog4.jpg" alt="Best financial">
+                        <p class="blog__date">
+                            23rd August 2018
+                        </p>
+                        <h2 class="blog__title">
+                            Best financial
+                        </h2>
+                        <p class="blog__text">
+                            Direct Line Development is honored to be recognized as one of the Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.
+                        </p>
+                    </li>
+                    <li class="blog__list_item">
+                        <img src="../static/img/blog5.jpg" alt="Company logo or brand identity: which one is more important? brand identity">
+                        <p class="blog__date">
+                            23rd August 2018
+                        </p>
+                        <h2 class="blog__title">
+                            Company logo or brand identity: which one is more important? brand identity
+                        </h2>
+                        <p class="blog__text">
+                            To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.
+                        </p>
+                    </li>
+                    <li class="blog__list_item">
+                        <img src="../static/img/blog6.jpg" alt="Top 5 fastest growing it service companies in philly">
+                        <p class="blog__date">
+                            23rd August 2018
+                        </p>
+                        <h2 class="blog__title">
+                            Top 5 fastest growing it service companies in philly
+                        </h2>
+                        <p class="blog__text">
+                            Direct Line Development’s Team is excited to announce that we received UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of service providers in the given marketplace.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <div class="blog__items">
+                <button class="blog__link" href="#"><img src="../static/icons/vectorl.svg" alt="" ></button>
+                <div class="blog__list_button">
+                    <button class="blog__button" href="#">
                         1
-                    </a>
-                </li>
-                <li>
-                    <a class="main__list" href="#">
+                    </button>
+                    <button class="blog__button" href="#">
                         2
-                    </a>
-                </li>
-                <li>
-                    <a class="main__list" href="#">
+                    </button>
+                    <button class="blog__button" href="#">
                         3
-                    </a>
-                </li>
-                <li>
-                    <a class="main__list" href="#">
+                    </button>
+                    <button class="blog__button" href="#">
                         4
-                    </a>
-                </li>
-            </ul>
+                    </button>
+                </div>
+                <button class="blog__link" href="#"><img src="../static/icons/vectorp.svg" alt="" ></button>
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -152,53 +154,69 @@
             <h3 class="footer__nav_title">
                 Navigation
             </h3>
+            <hr class="hr-line">
             <ul class="footer__nav_list">
                 <li class="footer__nav_item">
-                    <a href="#">About Us</a>
+                    <a class="footer__color_text" href="#">About Us</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Blog</a>
+                    <a  class="footer__color_text" href="../pages/Blog.html">Blog</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Design Services</a>
+                    <a  class="footer__color_text" href="#">Design Services</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Featured On</a>
+                    <a class="footer__color_text"  href="#">Featured On</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">2018 Holiday Catalog</a>
+                    <a  class="footer__color_text" href="#">2018 Holiday Catalog</a>
                 </li>
                 <li class="footer__nav_item">
-                    <a href="#">Shop By Designer</a>
+                    <a class="footer__color_text"  href="#">Shop By Designer</a>
                 </li>
             </ul>
-            <p>
-                Company Rating
-            </p>
-            <img src="#" alt="Rating">
+            <hr class="hr-line1">
+            <div class="rating">
+                <p class="rating__caption"  >Company Rating</p>
+                <div class="simple-raiting">
+                    <div class="simple-raiting__items">
+                        <input id="simple-raiting__5" type="radio" class="simple-raiting__item" name="simple-raiting" value="5">
+                        <label for="simple-raiting__5" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__4" type="radio" class="simple-raiting__item" name="simple-raiting" value="4">
+                        <label for="simple-raiting__4" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__3" type="radio" class="simple-raiting__item" name="simple-raiting" value="3">
+                        <label for="simple-raiting__3" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__2" type="radio" class="simple-raiting__item" name="simple-raiting" value="2">
+                        <label for="simple-raiting__2" class="simple-raiting__label" ></label>
+                        <input id="simple-raiting__1" type="radio" class="simple-raiting__item" name="simple-raiting" value="1">
+                        <label for="simple-raiting__1" class="simple-raiting__label" ></label>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="footer__info" >
             <h3 class="footer__info_title">
                 Customer Information
             </h3>
+            <hr class="hr-line">
             <ul class="footer__info_list">
                 <li class="footer__info_item">
-                    <a href="../pages/Contact  Us.html">Contact Us</a>
+                    <a class="footer__color_text" href="./pages/Contact  Us.html">Contact Us</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Sale Exclusions</a>
+                    <a class="footer__color_text" href="#">Sale Exclusions</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Shipping & Returns</a>
+                    <a class="footer__color_text" href="#">Shipping & Returns</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Terms & Conditions</a>
+                    <a class="footer__color_text" href="#">Terms & Conditions</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Privacy Policy</a>
+                    <a class="footer__color_text" href="#">Privacy Policy</a>
                 </li>
                 <li class="footer__info_item">
-                    <a href="#">Search</a>
+                    <a class="footer__color_text" href="#">Search</a>
                 </li>
             </ul>
             <p class="footer__info_text">
@@ -209,24 +227,25 @@
             <h3 class="footer__connect_title">
                 Connect
             </h3>
-            <form action="#">
-                <input type="Email" placeholder="Email">
+            <hr class="hr-line">
+            <form action="#" class="footer__connect_email">
+                <input type="Email" placeholder="Email" class="connect_email">
                 <button class="footer__connect_button">
                     Join
                 </button>
             </form>
             <ul class="footer__connect_list">
                 <li class="footer__connect_item">
-                    <a href="#"><img src="../static/icons/facebook.svg" alt="">Facebook</a>
+                    <a href="#"><img src="../static/icons/facebook.svg" alt="Facebook"></a>
                 </li>
-                <li>
-                    <a href="#"><img src="../static/icons/twitter.svg" alt="">Twitter</a>
+                <li class="footer__connect_item">
+                    <a href="#"><img src="../static/icons/twitter.svg" alt="Twitter"></a>
                 </li>
-                <li>
-                    <a href="#"><img src="../static/icons/pinterest.svg" alt="">Pinterest</a>
+                <li class="footer__connect_item">
+                    <a href="#"><img src="../static/icons/pinterest.svg" alt="Pinterest"></a>
                 </li>
-                <li>
-                    <a href="#"><img src="../static/icons/instagram.svg" alt="">Instagram</a>
+                <li class="footer__connect_item">
+                    <a href="#"><img src="../static/icons/instagram.svg" alt="Instagram"></a>
                 </li>
             </ul>
             <p class="footer__connect_text">
